@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "freejobs-f01",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "iot",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "bio",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
